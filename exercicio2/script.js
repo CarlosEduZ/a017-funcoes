@@ -1,28 +1,32 @@
 //A
 
-const soma = (num1, num2) => {
-    return num1 + num2
-}
-console.log(soma(13,10))
+// const soma = (num1, num2) => {
+//     return num1 + num2
+// }
+// console.log(soma(13,10))
 
 //B
 
-function numeros(num1, num2){
-    if (num1 >= num2) {
-        console.log("O primeiro numero é maior ou igual que o segundo")
-    } else {
-        console.log("o Segundo número é maior ou igual que o primeiro")
-    }
-}
-numeros(10,9)
+// function numeros(num1, num2){
+//     let booleano 
+//     if (num1 >= num2) {
+//         booleano = true
+        
+//     } else {
+//         booleano = false
+//     }
+//     return booleano
+// }
+// console.log(numeros(10,9))
+
 
 //C
 
 function par(num1){
     if (num1 %2 === 0) {
-        console.log("O número é par")
+      return console.log("O número é par")
     } else {
-        console.log("O número é impar")
+       return console.log("O número é impar")
     }
 }
 par(2)
